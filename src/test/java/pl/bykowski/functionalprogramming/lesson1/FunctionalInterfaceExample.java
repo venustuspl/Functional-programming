@@ -10,7 +10,7 @@ public class FunctionalInterfaceExample {
     @Test
     public void funcion() {
         Function<Integer, String> function = t -> t + t + " bykowski.pl";
-        System.out.println(function.apply(69));
+        System.out.println(function.apply(11));
     }
 
     @Test
